@@ -40,6 +40,41 @@ app.listen(port, ()=>{
     console.log(`listening to express--basics app at port: ${port}`);
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // get specific data from a get route
 
 app.get('/friends', (req,res)=> {
