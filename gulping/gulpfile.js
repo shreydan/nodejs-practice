@@ -2,7 +2,6 @@ const { parallel, task, series, watch } = require('gulp');
 const gulp = require('gulp');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass');
-const nodemon = require('gulp-nodemon');
 
 task('hello', function(done) {
     console.log('hello world');
