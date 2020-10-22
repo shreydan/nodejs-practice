@@ -1,0 +1,38 @@
+$s1color: #ff6161;
+$s2color: #bfff75;
+$s3color: #ffff95;
+$main-text-color: #252525;
+
+@mixin section-header-style {
+    color: $main-text-color;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section {
+    @include section-header-style;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.section1 {
+    background-color: $s1color;
+}
+.section2 {
+    background-color: $s2color;
+}
+.section3 {
+    background-color: $s3color;
+}
